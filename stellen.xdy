@@ -1,0 +1,61 @@
+;;; xindy style file für allgemeine Stellenverzeichnisse
+;; $Id: stellen.xdy v 1.3 2006/10/10 10:30:21 annette $
+;;--------------------------------------------------------------
+;; Workaround für Bug in xindy
+(defun locref:checked-make-var-location-class
+    (name layers &optional (unused 0) (hierdepth 0))
+  (locref::make-var-location-class name layers hierdepth))
+;; Zu entfernen bei neuer xindy-Version
+(require "tex.xdy")
+;; Seitenzahlen
+(define-location-class "roman-page-numbers"  ("roman-numbers-lowercase"))
+(define-location-class "Roman-page-numbers"  ("roman-numbers-uppercase"))
+(define-location-class "alpha-page-numbers"  ("alpha"))
+(define-location-class "Alpha-page-numbers"  ("ALPHA"))
+(define-location-class "seiten" :var ("arabic-numbers" :sep "," "arabic-numbers" ))
+
+;;; numerically sorting
+(merge-rule "[0-9][0-9][0-9][0-9][0-9][0-9]" "0&" :eregexp)
+(merge-rule "[0-9][0-9][0-9][0-9][0-9]" "00&" :eregexp)
+(merge-rule "[0-9][0-9][0-9][0-9]" "000&" :eregexp)
+(merge-rule "[0-9][0-9][0-9]" "0000&" :eregexp)
+(merge-rule "[0-9][0-9]" "00000&" :eregexp)
+(merge-rule "[0-9]" "000000&" :eregexp)
+
+;;;
+;;; Output Markup
+;;;
+
+(markup-index :open  "\begin{theindex}~n"
+	      :close "~n~n\end{theindex}~n"
+	      :tree)
+
+(markup-letter-group-list :sep "~n~n  \indexspace~n")
+(markup-letter-group :open-head "~n  % ")
+
+(markup-indexentry :open "~n\indexspace~n  \item "      :depth 0)
+(markup-indexentry :open "~n   \subitem "      :depth 1)
+(markup-indexentry :open "~n      \subsubitem " :depth 2)
+;; Haupteintrag fett
+;;(markup-keyword :open  "\textbf{"
+;;                     :close "}"
+;;                     :depth 0)
+(markup-locclass-list :open "\quad " :sep "; ")
+;; Einträge voneinander durch ; abgetrennt
+(markup-locref-list :sep "; ")
+(markup-range :class "seiten" :close "\,\emph{f.}"  :length 1 :ignore-end)
+(markup-range :class "seiten" :close "\,\emph{ff.}" :length 2 :ignore-end)
+(markup-range :sep "--")
+(define-attributes (("default" "dub" "textbf" "textit" "hyperpage")))
+(markup-locref :open "\textit{" :close "}" :attr "dub")
+(markup-locref :open "\textbf{" :close "}" :attr "textbf")
+(markup-locref :open "\textit{" :close "}" :attr "textit")
+(markup-locref :open "\hyperpage{" :close "}" :attr "hyperpage")
+;; (require "makeindex.xdy")
+(define-crossref-class "see")
+(markup-crossref-layer-list :class "see" :sep ", ")
+(markup-crossref-list :class "see" :open "\see{" :sep "; " :close "}{}") 
+;; \see takes two parameters, the second one is for the page number.
+;; We don't emit one in xindy, so we add an empty second argument.
+(define-crossref-class "seealso")
+(markup-crossref-list :class "seealso" :open "\seealso{" :close "}{}")

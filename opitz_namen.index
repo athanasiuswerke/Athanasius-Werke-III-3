@@ -1,0 +1,271 @@
+\renewcommand{\preindexhook}{}
+\renewcommand{\indexname}{Verzeichnis der Personen- und Ortsnamen (III/1--2)}
+% Indiziert wird bei mehreren Versionen jeweils nur die griechische.
+\begin{theindex}
+  % Seitenverweise voneinander durch "," getrennt: 5,5~f.; 7,34; 16,3
+  % Zeilen auf derselben Seite durch "." voneinander getrennt: 5,5~f.8.23
+  % Wenn Funktion unklar, einfach weglassen
+  \indexspace \item {Achaia} \quad 31,4
+  \indexspace \item {Achillas} \subitem Presbyter in der Mareotis \quad 11,22
+  \indexspace \item {Achilleus} \subitem Presbyter \quad 7,14; 13,21; 19,11; 25,15; 28,25; 29,24; 30,15
+  \indexspace \item {Aegyptus} \quad 8,12; 29,16; 31,3; 47,1; 48,13; 50,9; 56,23; 75,7
+  \indexspace \item {Aeithales} \subitem Presbyter \quad 7,14; 13,21; 29,25
+  \indexspace \item {A"etius} \subitem Bischof \quad 2,5; 36,7
+  \indexspace \item {Africa} \quad 32,11; 56,23
+  \indexspace \item {Agapius} \quad 36,5
+  \indexspace \item {Agathon} \subitem Diakon in Alexandrien \quad 11,8
+  \indexspace \item {Agathus} \subitem Presbyter in Alexandrien \quad 10,28
+  			\subitem Presbyter in der Mareotis \quad 11,21
+  \indexspace \item {Alexander} \subitem Bischof von Alexandrien \quad 1,2; 6,1.2; 10,21; 12,2~f.; 12,1; 14,1;
+15,7; 17,8~f.; 18,1.9; 18,1; 19,2; 19,2; 19,1; 29,1.2~f.; 30,5; 31,10; 31,1; 32,1; 33,2;
+37,18~f.; 38,8; 49,8.10; 50,11; 51,5; 66,1
+			\subitem Bischof von Konstantinopel \quad 41,4~f.
+			\subitem Bischof von Thessalonike \quad 19,1; 36,2.3
+  			\subitem Diakon in der Mareotis \quad 11,28
+  			\subitem Diakon in Alexandrien \quad 11,7
+  			\subitem Presbyter in Alexandrien \quad 10,25; 36,8
+  \indexspace \item {Alexandrien} \quad 6,1; 10,18; 18,5~f.; 19,1; 47,1; 50,5.10; 52,1; 62,2; 70,13;
+72,4
+  \indexspace \item {Alpheius} \quad 36,10
+  \indexspace \item {Ambytianus} \subitem Diakon in Alexandrien \quad 11,6
+  \indexspace \item {Ammonas} \subitem Presbyter in der Mareotis \quad 11,18
+  \indexspace \item {Ammonius} \subitem Diakon in der Mareotis \quad 11,30
+  			\subitem Diakon in Alexandrien \quad 1,4; 10,34
+  			\subitem Presbyter in der Mareotis \quad 11,15
+  \indexspace \item {Amphion} \quad 36,4
+  \indexspace \item {Anatolien} \quad 31,7.12
+  \indexspace \item {Anatolius} \quad 36,7
+  \indexspace \item {Ancyra} \quad 40,17; 41,1.4
+  \indexspace \item {Antiochia} \quad 19,1; 25,11; 36,1; 37,2.10; 41,4
+  \indexspace \item {Antiochus} \quad 36,6
+  \indexspace \item {Aphthonius} \subitem Diakon in Alexandrien \quad 11,3
+  \indexspace \item {Api} \subitem Diakon \quad 29,15
+  \indexspace \item {Apis} \subitem Presbyter in Alexandrien \quad 10,30
+  \indexspace \item {Apollonius} \subitem Diakon in Alexandrien \quad 11,2
+  			\subitem Presbyter in der Mareotis \quad 11,13
+  \indexspace \item {Arabia} \quad 31,4; 37,6
+  \indexspace \item {Archelaus} \quad 36,6
+  \indexspace \item {Arius} \subitem Presbyter in Alexandrien \quad 1,1; 3,1; 6,3.7.10.12; 7,14; 8,11;
+10,19; 11,14; 12,2; 13,21; 14,4; 15,8; 18,2.8; 18,2.7; 19,3; 19,11; 25,15; 28,25; 29,24;
+30,2.15; 31,3; 32,1; 33,4; 37,19; 38,8; 40,10; 47,9; 51,2; 53,9; 61,7; 63,1; 64,1; 66,4;
+66,2; 67,4.5; 68,2.4; 69,1.26; 70,27; 71,14.18.21; 72,26; 74,13
+  			\subitem Presbyter \quad 7,15; 13,22; 29,25
+  \indexspace \item {Armenia} \quad 31,6
+  \indexspace \item {Artemas} \quad 25,11
+  \indexspace \item {Asia} \quad 29,17; 31,5; 57,1
+  \indexspace \item {Asclepius} \quad 36,9~f.
+  \indexspace \item {Asterius} \quad 18,8
+  \indexspace \item {Athanasius} \subitem Bischof von Anazarba \quad 2,5
+  				\subitem Diakon in Alexandrien \quad 11,1.4; 14,1~f.; 31,2
+  \indexspace \item {Augustoeuphratesien} \quad 31,7~f.
+  \indexspace \item {Auidius} \quad 36,10
+
+
+
+	\indexspace \item {Bassianus} \quad 36,4.5
+	\indexspace \item {Bassus} \quad 36,10
+	\indexspace \item {Berytus} \quad 7,5
+	\indexspace \item {Bithynia} \quad 12,1; 42,1~f.
+	\indexspace \item {Boccon} \subitem Presbyter in der Mareotis \quad 11,21
+	\indexspace \item {Britannia} \quad 57,1
+
+	\indexspace \item {Cappadocia} \quad 29,17; 31,6; 37,7
+	\indexspace \item {Caria} \quad 31,5
+	\indexspace \item {Carpon} \subitem Diakon in der Mareotis \quad 11,35
+	\columnbreak \item {Carpones} \subitem Presbyter \quad 7,14~f.; 13,22; 29,25
+	\indexspace \item {Chares} \subitem Bischof \quad 6,8
+	\indexspace \item {Chrestus} \quad 41,1
+	\indexspace \item {Cilicia} \quad 31,8; 37,7; 57,2
+	\indexspace \item {Colluthus} \subitem Presbyter in Alexandrien \quad 10,19; 19,11
+	\indexspace \item {Comodus} \subitem Diakon in Alexandrien \quad 11,10
+	\indexspace \item {Comon} \subitem Diakon in der Mareotis \quad 11,29
+	\indexspace \item Constantinus, Kaiser\quad \see{Konstantin, Kaiser}{}
+	\indexspace \item {Copres} \subitem Presbyter in der Mareotis \quad 11,18
+	\indexspace \item {Cyrillus} \quad 36,7
+	\indexspace \item {Cyrus} \subitem Presbyter in Alexandrien \quad 10,32
+
+
+	\indexspace \item {Demetrius} \subitem Diakon in der Mareotis \quad 11,27
+	\indexspace \item {Didymus} \subitem Diakon in der Mareotis \quad 11,31
+					\subitem Diakon in der Mareotis \quad 11,27
+					\subitem Presbyter in der Mareotis \quad 11,20
+	\indexspace \item {Dionysius} \subitem Presbyter in der Mareotis \quad 11,23
+					\subitem Presbyter in Alexandrien \quad 10,23
+					\subitem Diakon in Alexandrien \quad 11,7
+	\indexspace \item {Dioscurus} \subitem Presbyter in Alexandrien \quad 10,22
+					\subitem Presbyter in der Mareotis \quad 11,16
+
+
+  \indexspace \item {Ebion} \quad 25,10
+  \indexspace \item {Erythraia} \quad 71,22; 72,3
+  \indexspace \item {Eumenes} \subitem Diakon in Alexandrien \quad 11,2
+  \indexspace \item {Euphration} \subitem Bischof von Balane"a \quad 4,1; 36,9
+  \indexspace \item {Euphronius} \quad 41,2
+  \indexspace \item {Eupsychius} \quad 36,9
+  \indexspace \item {Europa} \quad 42,2
+  \indexspace \item {Eusebius} \subitem Bischof von Casearea \quad 2,4; 4,1; 15,7; 15,2.4; 18,2; 40,6; 41,2~f.
+  				\subitem Bischof von Nikomedien \quad 1,1; 3,1.8; 7,4~f.11; 8,13; 10,12; 15,1;
+42,1; 60,4.12.15; 61,1.3.8.9; 63,2
+  			\subitem Presbyter in Alexandrien \quad 10,24 
+  \indexspace \item {Eustathius} \quad 36,4.7
+  \indexspace \item {Euzoius} \subitem Diakon  \quad 7,15; 13,22; 29,25; 64,2; 66,8
+
+
+  \indexspace \item {Gaius} \subitem Diakon in der Mareotis \quad 11,32
+  			\subitem Diakon in Alexandrien \quad 7,16; 11,6; 13,23; 29,25
+  \indexspace \item {Galatia} \quad 31,5; 41,4
+  \indexspace \item {Gallia} \quad 57,1
+  \indexspace \item {Gaudentius} \quad 75,6
+  \indexspace \item {Georgius} \subitem Presbyter in Laodicaea \quad 19,1; 31,5
+  \indexspace \item {Germanus} \quad 36,7
+  \indexspace \item {Gerontius} \quad 36,10
+  \indexspace \item {Gregorius} \subitem Bischof von \quad 2,5; 36,4
+  \indexspace \item {Griechenland} \quad 57,1; 71,20; 72,4
+
+  \indexspace \item {Harpocration} \subitem Presbyter in Alexandrien \quad 10,27
+  \indexspace \item {Helladius} \subitem Diakon \quad 7,16; 13,23; 29,26
+  \indexspace \item {Hellanicus} \quad 2,6~f.; 36,6
+  \indexspace \item {Hellespontus} \quad 31,4~f.
+  \indexspace \item {Heracles} \subitem Presbyter in der Mareotis \quad 11,20
+  \indexspace \item {Hesychius} \quad 36,10
+  \indexspace \item {Hieracas} \quad 13,1
+  \indexspace \item {Hierax} \subitem Diakon in der Mareotis \quad 11,33
+  \indexspace \item {Horion} \subitem Presbyter in der Mareotis \quad 11,19
+  \indexspace \item {Hymenaeus} \quad 9,28
+
+
+	\indexspace \item {Ingenius} \subitem Presbyter in der Mareotis \quad 11,15
+	\indexspace \item {Irenaeus} \subitem Diakon \quad 6,9; 36,8
+	\indexspace \item {Irenicus} \quad 36,9
+	\indexspace \item {Isauria} \quad 31,8
+	\indexspace \item {Italia} \quad 42,2; 56,23
+
+	\indexspace \item {Jacobus} \quad 36,6
+	\columnbreak \item {Julius} \subitem Diakon \quad 7,16; 13,22; 29,26
+	\indexspace \item {Justus} Diakon in des Mareotis \quad 11,26
+
+
+	\indexspace \item {Konstantin, Kaiser} \quad 32,1; 41,1; 47,4.9; 52,1; 54,1; 58,1; 63,1;
+63,1; 64,1; 66,1; 66,1; 69,1
+	\indexspace \item {Konstantinopel} \quad 41,5
+
+	\indexspace \item {Libya} \quad 8,12; 29,16; 31,3; 47,2; 57,1; 71,23; 72,2
+	\indexspace \item {Longinus} \quad 36,5
+	\indexspace \item {Longus} \subitem Presbyter in Alexandrien \quad 10,29
+	\indexspace \item {Lucius} \subitem Diakon \quad 7,15; 13,22; 29,26
+	\indexspace \item {Lucian} \quad 25,13
+	\indexspace \item {Lupus} \quad 36,8
+	\indexspace \item {Lycia} \quad 29,17; 31,5
+	\indexspace \item {Lydia} \quad 31,5
+
+  \indexspace \item {Macarius} \quad 2,7; 10,34; 11,4; 36,6
+  \indexspace \item {Macedonius} \quad 36,5
+  \indexspace \item {Macrinus} \quad 36,6~f.
+  \indexspace \item {Magnus} \quad 36,4
+  \indexspace \item {Manichaius} \quad 12,11
+  \indexspace \item {Manicius} \quad 36,5
+  \indexspace \item {Marcus} \subitem Diakon in der Mareotis \quad 11,29.33
+  \indexspace \item {Marcus} \subitem Diakon in Alexandrien \quad 11,9
+  \indexspace \item {Mareotis} \quad 6,1.8; 11,12
+  \indexspace \item {Marinus} \quad 36,9
+  \indexspace \item {Maurus} \subitem Diakon in der Mareotis \quad 11,28
+  \indexspace \item {Maximus} \quad 36,8
+  \indexspace \item {Melitius} \subitem Bischof \quad 30,4; 48,14.15; 50,6
+  \indexspace \item {Menas} \subitem Diakon \quad 7,16; 13,22; 29,26
+  \indexspace \item {Mesopotamia} \quad 31,7
+  \indexspace \item {Mocimus} \quad 36,5
+  \indexspace \item {Moses} \quad 36,7
+
+  \indexspace \item {Narcissus} \subitem Bischof von Neronias \quad 40,5; 41,1.5.6.8
+  \indexspace \item {Nemesius} \subitem Presbyter in Alexandrien \quad 10,28
+  \indexspace \item {Nicaea} \quad 41,2; 42,1.5; 41,4; 42,2; 47,2.6; 51,1.4; 52,8; 61,4; 66,6.15
+  \indexspace \item {Nicetas} \quad 36,6
+  \indexspace \item {Nicomachus} \quad 36,8
+  \indexspace \item {Nikomedien} \quad 1,4; 7,6; 35,21~f.; 58,1
+	\indexspace \item {Nilaras} \subitem Presbyter in Alexandrien \quad 10,26
+	\indexspace \item {Nilus} \subitem Diakon in Alexandrien \quad 11,11
+
+
+	\indexspace \item {Olympius} \subitem Diakon in Alexandrien \quad 11,3
+	\indexspace \item {Origenes} \quad 17,4
+	\indexspace \item {Ossius} \subitem Bischof \quad 36,3; 41,2
+
+  \indexspace \item {Palaestina} \quad 18,3.8; 31,4; 37,6; 40,6
+  \indexspace \item {Pamphylien} \quad 29,17; 31,5
+  \indexspace \item {Paterius} \subitem Eparch von Ägypten \quad 75,6~f.
+  \indexspace \item {Patrophilus} \subitem Bischof von Scythopolis \quad 18,3~f.
+  \indexspace \item {Paulinus} \subitem Bischof von Tyrus \quad 2,4; 15,1; 17,1; 18,4.8; 18,2; 36,7
+  \indexspace \item {Paulus} \quad 36,5.8
+  			\subitem Diakon in Alexandrien \quad 11,5
+  			\subitem Presbyter in der Mareotis \quad 11,22
+  			\subitem Presbyter in Alexandrien \quad 10,31
+  \indexspace \item {Paulus von Samosata} \quad 25,11
+  \indexspace \item {Pegasius} \quad 36,9
+  \indexspace \item {Pentapolis} \quad 29,16; 31,3~f.; 47,2
+  \indexspace \item {Perammon} \subitem Diakon \quad 6,9
+  \indexspace \item {Perous} \subitem Presbyter in Alexandrien \quad 10,30
+  \indexspace \item {Petrus} \quad 36,9
+  				\subitem Diakon in Alexandrien \quad 11,5; 36,5
+  \indexspace \item {Philetus} \quad 9,28
+  \indexspace \item {Philogonius} \subitem Bischof von Antiochien \quad 2,6; 31,6~f.9
+  \indexspace \item {Philoxenus} \quad 36,8
+  \indexspace \item {Phoenice} \quad 31,8; 37,7
+  \indexspace \item {Phrygia} \quad 31,5
+  \indexspace \item {Piperius} \quad 36,4
+  \indexspace \item {Pisidia} \quad 31,5
+  \indexspace \item {Pistus} \subitem Bischof von Alexandrien\quad 6,9.12; 13,23
+  			\subitem Diakon in Alexandrien \quad 11,1
+  \indexspace \item {Polemoniacus} \quad 31,6
+  \indexspace \item {Polybius} \subitem Diakon in Alexandrien \quad 11,8
+  \indexspace \item {Pontus} \quad 31,6; 57,1
+  \indexspace \item {Porphyrius} \quad 67,1.5
+  \indexspace \item {Proterius} \subitem Presbyter in Alexandrien \quad 10,31
+  \indexspace \item {Ptollarion} \subitem Diakon in der Mareotis \quad 11,31
+
+
+	\indexspace \item {Rhabbulas} \quad 36,8
+	\indexspace \item {Rom} \quad 51,1;56,23; 71,21
+	\indexspace \item {Romanus} \subitem Diakon in Alexandrien \quad 11,11
+
+	\indexspace \item {Sabellius} \quad 12,12; 27,6
+	\indexspace \item {Salamanes} \quad 36,4
+	\indexspace \item {Sarapion} \subitem Diakon in der Mareotis \quad 11,25
+	\indexspace \item {Sarmates} \subitem Presbyter \quad 7,15; 29,25
+	\indexspace \item {Sarmaton} \subitem Diakon in der Mareotis \quad 11,34
+	\indexspace \item {Sarmatus} \subitem Presbyter\quad 13,22
+	\indexspace \item {Secundus} \subitem Bischof in der Pentapolis \quad 7,16; 13,23
+				\subitem Bischof von Ptolemais \quad 48,9
+	\indexspace \item {Seleucus} \quad 36,5~f.
+	\indexspace \item {Serapion} \subitem Diakon in Alexandrien \quad 6,9; 11,10
+	\indexspace \item {Seras} \subitem Diakon in der Mareotis \quad 11,32
+	\indexspace \item {Serenus} \subitem Presbyter in der Mareotis \quad 11,19
+	\indexspace \item {Silvanus} \subitem Presbyter in Alexandrien \quad 10,29
+	\indexspace \item {Sopatrus} \quad 36,6
+	\indexspace \item {Sostras} \subitem Presbyter in der Mareotis \quad 11,16
+	\indexspace \item {Spania} \quad 56,23
+	\indexspace \item {Sylvester} \subitem Bischof von Rom \quad 31,1
+	\indexspace \item {Syncletius} \quad 75,6
+	\indexspace \item {Syria} \quad 25,16; 29,16~f.; 31,7; 37,7
+
+ \indexspace \item {Tarcondimantus} \quad 36,9
+ \indexspace \item {Terentius} \quad 36,10
+ \indexspace \item {Thalelaius} \subitem Presbyter in der Mareotis \quad 11,23
+ \indexspace \item {Thebais} \quad 29,16; 31,3
+ \columnbreak \item {Theodotus} \subitem Bischof von Laodicea \quad 2,4; 40,5; 63,1
+ \indexspace \item {Theognis} \subitem Bischof von Nicaea \quad 62,1; 63,2
+ \indexspace \item {Theon} \subitem Presbyter in der Mareotis \quad 11,17
+ \indexspace \item {Theonas} \subitem Bischof aus Libyen \quad 13,23
+ 			\subitem Bischof von Marmarike \quad 48,9
+ 			\subitem Diakon in der Mareotis \quad 11,34
+ 			\subitem Diakon in Alexandrien \quad 7,17; 11,9
+ \indexspace \item {Thracia} \quad 31,4
+ \indexspace \item {Tryphon} \subitem Diakon in der Mareotis \quad 11,30
+ \indexspace \item {Tyrannus} \subitem Presbyter in der Mareotis \quad 11,17
+
+ \indexspace \item {Valentinus, Gnostiker} \quad 12,10~f.; 27,6
+
+	\indexspace \item {Zenobius} \quad 36,4
+	\indexspace \item {Zo"ilus} \subitem Diakon in der Mareotis \quad 11,35; 36,7
+	\indexspace \item {Zosimus} \subitem Diakon \quad 6,9
+
+\end{theindex}

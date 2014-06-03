@@ -1,0 +1,209 @@
+\renewcommand{\preindexhook}{\noindent\footnotesize Kursivierte Ziffern beziehen sich auf Stellen, an denen kein Zitat, sondern nur eine Anspielung vorliegt.}
+\renewcommand{\indexname}{Verzeichnis der Bibelstellen (III/1--2)}
+\begin{theindex}
+  % Stellen, auf die mit "vgl." verwiesen wird, kursiviert (Seitenzahl, nicht Bibelstelle)
+  % Seitenverweise voneinander durch ";" getrennt: 5,5~f.; 7,34; 16,3
+  % Zeilen auf derselben Seite durch "." voneinander getrennt: 5,5~f.8.23
+
+	\item Genesis
+		\subitem 1,26~f. \quad 41,9~f.
+		\subitem 6,2~ff.4 \quad 25,5~f.
+		\subitem 15,5 \quad \textit{23,2~f.}
+
+\indexspace
+
+	\item Deuteronomium
+		\subitem 32,18 \quad 17,2
+
+\indexspace
+
+	\item Esdras I
+		\subitem 3,12 \quad \textit{8,15}
+
+\indexspace
+
+	\item Iob
+		\subitem 38,28 \quad 17,2~f.
+
+\indexspace
+
+  \item Psalmi
+    \subitem 2,7 \quad 24,29~f.
+    \subitem 35,10 \quad \textit{26,3~f.}
+    \subitem 44,2 \quad \textit{2,7}; 9,2
+    \subitem 44,8 \quad 22,1--3
+    \subitem 109,3 \quad 9,2~f.; 13,17; 24,31
+
+ \indexspace %% zwischen den einzelnen \items
+
+\item Proverbia
+	\subitem 8,22--23.25 \quad 16,11~f.
+	\subitem 8,22--31 \quad 33,3
+	\subitem 8,30 \quad 23,32--24,1
+	\subitem 18,3 \quad 9,22
+	\subitem 24,12 \quad \textit{73,10}
+	\subitem 24,54 \quad 24,19
+
+ \indexspace
+
+	\item Sapienti
+		\subitem 7,26 \quad \textit{9,3~f.}; \textit{26,2}
+
+ \indexspace
+
+ 	\item Siracides
+ 		\subitem 1,2 \quad 23,3~f.
+ 		\subitem 3,21 \quad 22,25~f.
+
+\columnbreak
+
+ 	\item Isaias
+ 		\subitem 1,1 \quad \textit{19,4~ff.}
+ 		\subitem 1,2 \quad 17,1~f.; 21,16; 25,6~f.
+ 		\subitem 24,16 \quad 23,11
+ 		\subitem 53,8 \quad 23,5~f.; \textit{27,7~ff.}
+
+ \indexspace
+
+ 	\item Michaea
+ 		\subitem 1,3 \quad \textit{72,26~ff.}
+
+ \indexspace
+
+ 	\item Malachias
+ 		\subitem 3,6 \quad \textit{9,8~f.}
+
+ \indexspace
+
+ 	\item Matthaeus
+ 		\subitem 3,17 \quad 24,28~f.
+ 		\subitem 11,27 \quad 23,9~f.; 27,12~f.; \textit{38,20--39,1};
+\textit{71,2}
+ 		\subitem 13,25 \quad \textit{37,2~f.}
+ 		\subitem 17,5 \quad 24,28~f.
+ 		\subitem 21,13 \quad \textit{20,3~f.}
+ 		\subitem 27,24 \quad \textit{72,22}
+ 		\subitem 28,19 \quad 43,18~f.; 64,13~f.
+
+ \indexspace
+
+ 	\item Lucas
+ 		\subitem 10,22 \quad \textit{38,20--39,1}; \textit{71,2}
+ 		\subitem 15,4 \quad \textit{18,3}
+ 		\subitem 21,8 \quad 10,2~f.
+
+ \indexspace
+
+  \item Ioannes
+	   \subitem 1,1 \quad 5,10; 8,18; 30,19
+	   \subitem 1,1--3 \quad 22,10~ff.
+	   \subitem 1,3 \quad 8,20; 22,9; \textit{43,12}
+	   \subitem 1,7 \quad \textit{22,20}
+	   \subitem 1,18 \quad 8,20; 22,5~f.
+	   \subitem 5,23 \quad \textit{26,4}
+	   \subitem 6,44 \quad \textit{5,3}
+	   \subitem 8,42 \quad 13,17~f.
+	   \subitem 10,15 \quad 9,15~f.; \textit{27,12~f.}
+	   \subitem 10,30 \quad 9,8; 25,22
+	   \subitem 14,8--9 \quad 26,1~f.
+	   \subitem 14,9 \quad 9,4
+	   \subitem 14,10 \quad 9,7~f.
+	   \subitem 14,23 \quad \textit{25,21}
+	   \subitem 14,28 \quad \textit{5,3}; 27,17; 28,7
+	   \subitem 16,13 \quad \textit{27,11}
+	   \subitem 16,33 \quad 28,13~f.
+	   \subitem 17,3 \quad 5,5~f.
+	   \subitem 19,23~f. \quad \textit{20,16}
+
+ \indexspace
+
+ 	\item Actus Apostolorum
+ 		\subitem 13,50 \quad \textit{20,13}
+
+ \indexspace
+
+ 	\item Ad Romanos
+ 		\subitem 7,6 \quad \textit{28,9}
+ 		\subitem 8,15 \quad 24,22~ff.
+ 		\subitem 8,32 \quad 24,26~f.
+
+ \indexspace
+
+ 	\item I Ad Corinthios
+ 		\subitem 1,24 \quad \textit{24,1}; \textit{24,13}; 30,20;
+\textit{39,8~f.}
+ 		\subitem 2,9 \quad 23,1~f.
+ 		\subitem 10,4 \quad 24,19
+ 		\subitem 11,12 \quad \textit{19,3~ff.}
+ 		\subitem 12,26 \quad \textit{6,5~f.}
+ 		\subitem 13,8--12 \quad \textit{27,28~ff.}
+ 		\subitem 15,20 \quad 28,14~f.
+
+ \indexspace
+
+ 	\item II Ad Corinthios
+ 		\subitem 4,4 \quad 24,4; \textit{39,1}; 39,9
+ 		\subitem 5,10 \quad 39,15
+ 		\subitem 6,14~f. \quad \textit{8,15~f.}; 24,17~f.
+ 		\subitem 8,9 \quad \textit{25,18}
+
+ \indexspace
+
+ 	\item Ad Galatas
+ 		\subitem 1,8 \quad \textit{28,28}
+ 		\subitem 1,9 \quad 28,27~f.; 30,16~f.
+ 		\subitem 2,9 \quad \textit{23,7}
+
+ \indexspace
+
+ 	\item Ad Philippenses
+ 		\subitem 2,7~f. \quad \textit{25,18}
+ 		\subitem 2,8 \quad \textit{20,6}
+ 		\subitem 2,11 \quad 24,22
+ 		\subitem 3,16 \quad 27,28
+
+ \indexspace
+
+ 	\item Ad Colossenses
+ 		\subitem 1,15 \quad \textit{9,3~f.}; 23,22; \textit{28,5};
+\textit{43,11}
+ 		\subitem 1,16 \quad \textit{43,9}
+ 		\subitem 1,16~f. \quad 23,24~ff.
+
+ \indexspace 
+
+ 	\item I Ad Thessalonicenses
+ 		\subitem 2,15 \quad \textit{55,25}
+ 		\subitem 4,9 \quad 25,9
+
+ \indexspace
+
+ 	\item I Ad Timotheum
+ 		\subitem 2,5 \quad 6,6~f.
+ 		\subitem 4,1 \quad 10,4~ff.
+ 		\subitem 6,3~f. \quad 28,28--29,2
+
+ \indexspace
+
+ 	\item II Ad Timotheum
+ 		\subitem 2,17 \quad \textit{9,28}
+ 		\subitem 3,6 \quad \textit{29,8}
+ 		\subitem 4,1 \quad \textit{43,14~f.}
+
+\columnbreak
+
+ 	\item Ad Hebraeos
+ 		\subitem 1,2 \quad \textit{23,17~f.}; 23,23~f.
+ 		\subitem 1,3 \quad \textit{9,3~f.}; 24,3; \textit{26,2}; 27,18~f.;
+\textit{28,5}; 28,18~f.; 30,11; \textit{39,10}
+ 		\subitem 1,9 \quad 22,1--3
+ 		\subitem 2,10 \quad 9,13
+ 		\subitem 9,26 \quad 28,16
+ 		\subitem 13,8 \quad 9,11~f.
+
+ \indexspace
+
+	\item	I Ioannis
+		\subitem 5,1 \quad 26,29
+
+\end{theindex}

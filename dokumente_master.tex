@@ -1,0 +1,262 @@
+%%%%%%%%%%%%%%%% Version 0.6 der Masterdatei %%%%%%%%%%%%%%%%%%%%%%%%%
+%% Änderungen:
+%% 25.4.2007 v0.6 Umstellung von memoir.tex und ledmac.tex auf config.tex
+%% 13.12.2005 v0.5 Bibelstellen-Index eingefügt
+%% 9.2.2005 v0.4 Umnummerierung und Änderung der Verweise
+%% 28.4.2004 v0.3 \chapter und \section in der Input-Datei, nicht mehr in der Masterdatei
+\documentclass[a4paper,11pt,openany]{memoir}
+\input{config}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%% TITELEI %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{titlingpage}
+% \thispagestyle{empty}
+% %%%%%%%%% Schmutzblatt
+% \begin{center}
+% \large{ATHANASIUS WERKE}\par
+% \normalsize{DRITTER BAND}\par
+% \normalsize{ZWEITER TEIL}
+% \end{center}
+% \clearpage
+% %%%%%%%%%%%%%% Reihenseite
+% \thispagestyle{empty}
+% \begin{center}
+% \Huge{ATHANASIUS WERKE}\\
+% \vspace*{1cm}
+% \large{DRITTER BAND}\\
+% \large{ZWEITER TEIL}\\
+% \vspace*{1cm}
+% \LARGE{DOKUMENTE ZUR GESCHICHTE DES ARIANISCHEN STREITES}\\
+% \vspace*{1cm}
+% \large{HERAUSGEGEBEN IM AUFTRAG DER BERLIN-BRANDENBURGISCHEN AKADEMIE DER
+% WISSENSCHAFTEN}\par
+% \large{VON HANNS CHRISTOF BRENNECKE, UTA HEIL, ANNETTE VON STOCKHAUSEN UND ANGELIKA
+% WINTJES}\par
+% \vspace*{2cm}
+% \large{3. LIEFERUNG}
+% \end{center}
+% \vspace*{\fill}
+% \begin{center}
+%  \includegraphics{degruyter_signet}
+%  % degruyter_signet.png: 555x1038 pixel, 1200dpi, 1.17x2.20 cm, bb=0 0 33 62
+% \end{center}
+% \begin{center}
+% \large{WALTER DE GRUYTER \LitNil\ BERLIN \LitNil\ NEW YORK}\par
+% \large{2007}
+% \end{center}
+% \clearpage
+% %%%%%%%%%%%%% Titelseite
+% \thispagestyle{empty}
+% \begin{center}
+% \Huge{ATHANASIUS WERKE}\\
+% \vspace*{1cm}
+% \large{DRITTER BAND}\\
+% \large{ZWEITER TEIL}\\
+% \vspace*{1cm}
+% \LARGE{DOKUMENTE ZUR GESCHICHTE DES ARIANISCHEN STREITES}\\
+% \vspace*{2cm}
+% \large{3. LIEFERUNG}\par
+% \large{BIS ZUR EKTHESIS MAKROSTICHOS}\par
+% \vspace*{1cm}
+% \large{HERAUSGEGEBEN VON\\HANNS CHRISTOF BRENNECKE, UTA HEIL, ANNETTE VON
+% STOCKHAUSEN UND ANGELIKA WINTJES}
+% \end{center}
+% \vspace*{\fill}
+% \begin{center}
+%  \includegraphics{degruyter_signet}
+%  % degruyter_signet.png: 555x1038 pixel, 1200dpi, 1.17x2.20 cm, bb=0 0 33 62
+% \end{center}
+% \begin{center}
+% \large{WALTER DE GRUYTER \LitNil\ BERLIN \LitNil\ NEW YORK}\par
+% \large{2007}
+% \end{center}
+% \clearpage
+% % copyright page
+% \begingroup
+% 	\begin{center}
+% 	\footnotesize
+% 	\begin{tabular}{ll}
+% 	Stand: \today
+% 	\end{tabular}
+% 	\end{center}
+% \vspace*{\fill}
+% 	\begin{center}
+% 	\footnotesize
+% 	Die Deutsche Bibliothek -- CIP-Einheitsaufnahme\\
+% 	\vspace*{1cm}
+% 	\textbf{Athanasius <Alexandrinus>:}\\
+% 	Werke / Athanasius.\\
+% 	hg. im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften\\
+% 	von Hanns Christof Brennecke, Uta Heil, Annette von Stockhausen, Angelika
+% Wintjes\\
+% 	-- Berlin ; New York : de Gruyter\\
+% 	Teilw. griech. -- Teilw. in griech. Schr.\\
+% 	Band III. Teil 2. Lieferung 3\\
+% 	Dokumente zum arianischen Streit\\
+% 	2007\\
+% 	\vspace*{1cm}
+% 	ISBN 978-3-11-019104-2\\
+% 	\vspace*{1cm}
+% 	\textcopyright{} 2007 by Walter de Gruyter GmbH \& Co., D-10785 Berlin\\
+% 	\end{center}
+% \endgroup
+% \end{titlingpage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% VORWORT %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+\pagenumbering{roman}
+\setcounter{page}{5}
+\input{vorwort.tex}
+\cleardoublepage
+\selectlanguage{german}
+\renewcommand{\contentsname}{Inhalt}
+\tableofcontents*
+\input{siglen}
+\input{chronologie}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% HAUPTTEXT %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+\aliaspagestyle{chapter}{dokumente}
+%% Übersetzung der in den bereits erschienenen Faszikeln edierten Texte %%%%%%%%%%%
+\setcounter{page}{77}
+\input{6t.tex}
+\input{4t.tex}
+\input{5t.tex}
+\input{8t.tex}
+\input{9t.tex}
+\input{12t.tex}
+\input{13t.tex}
+\input{10t.tex}
+\input{7t.tex}
+\input{3t.tex}
+\input{11t.tex}
+%% Dokument 35 %%
+\input{35.tex}
+% DOKUMENT 36 %%%
+\input{36.tex}
+\input{15t.tex}
+\input{1t.tex}
+\input{2t.tex}
+\input{14t.tex}
+
+\input{16t.tex}
+\input{17t.tex}
+\input{18t.tex}
+\input{19t.tex}
+\input{20t.tex}
+\input{21t.tex}
+\input{22t.tex}
+\input{23t.tex}
+\input{24t.tex}
+\input{34t.tex}
+\clearpage
+\input{33t.tex}
+\input{25t.tex}
+\input{26t.tex}
+\input{27t.tex}
+\input{28t.tex}
+\input{29t.tex}
+\input{30t.tex}
+%% DOKUMENT 37 %%%
+\input{37.1.tex}
+\input{37.2.tex}
+\input{31t.tex}
+\input{32t.tex}
+
+%% DOKUMENT 38 %%%
+\input{38.tex}
+
+%% DOKUMENT 39 %%%
+\input{39.1.tex}
+\input{39.2.tex}
+
+%% DOKUMENT 40 %%%
+\input{40.tex}
+
+% DOKUMENT 41 %%%
+\input{41.1.tex}
+\input{41.2.tex}
+\input{41.3.tex}
+\input{41.4.tex}
+\input{41.5.tex}
+\input{41.6.tex}
+\input{41.7.tex}
+\input{41.8.tex}
+
+%% DOKUMENT 42 %%%
+\input{42.tex}
+
+%% DOKUMENT 43 %%%
+\input{43.tex}
+\input{43.1.tex}
+\input{43.2.tex}
+\input{43.3.tex}
+\input{43.4.tex}
+\input{43.5.tex}
+\input{43.6.tex}
+\input{43.7.tex}
+\input{43.8.tex}
+\input{43.9.tex}
+\input{43.10.tex}
+\input{43.11.tex}
+\input{43.12.tex}
+\input{43.13.tex}
+% DOKUMENT 44 %%%%
+\input{44.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% INDICES ETC. %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\aliaspagestyle{chapter}{empty}
+\renewcommand{\clearforchapter}{\clearpage}  % Chapter wieder neue Seite
+\chapter*{Literatur}
+\label{literatur}
+\addcontentsline{toc}{chapter}{Literatur}
+\markboth{Literatur}{Literatur}
+\printbibliography[heading=edition,keyword=edition]
+\printbibliography[heading=literatur,keyword=literatur]
+% \bibliographystyle{jurabibtheoneu}
+% \begin{btSect}{editionen}
+% \section{Editionen}
+% \btPrintAll
+% \end{btSect}
+% \begin{btSect}{dokumente}
+% \section{Sekundärliteratur}
+% \btPrintAll
+% \end{btSect}
+%%%%%%%%% Index zu III/1-2
+\input{synopse.tex}
+\chapter*[Register zu den in III/1 und 2 edierten Texten]{Register zu den in III/1 und 2
+edierten Texten}
+\addcontentsline{toc}{chapter}{Register zu den in III/1 und 2 edierten Texten}
+\begin{quote}
+\noindent\footnotesize Die Seitenangaben beziehen sich auf Seiten und Zeilen in den
+beiden Faszikeln, nicht auf die Seitenangaben in diesem Band.
+\end{quote}
+\input{opitz_bibel.index}
+\input{opitz_quellen.index}
+\input{opitz_namen.index}
+%%%%%%%%%%%%%%
+\chapter[Register]{Register}
+\renewcommand{\preindexhook}{\noindent\footnotesize Kursivierte Ziffern beziehen sich auf Stellen, an denen kein Zitat, sondern nur eine Anspielung vorliegt.}
+\renewcommand{\indexname}{Verzeichnis der Bibelstellen}
+\input{bibel.index}
+\renewcommand{\preindexhook}{}
+\renewcommand{\indexname}{Verzeichnis der Quellen}
+\input{quellen.index}
+\renewcommand{\preindexhook}{\noindent\footnotesize Kursivierte Ziffern beziehen sich auf Stellen, an denen nicht sicher auszumachen ist, ob es sich um die genannte Person handelt.}
+\renewcommand{\indexname}{Verzeichnis der Personen- und Ortsnamen}
+\input{namen.index}
+\renewcommand{\preindexhook}{}
+\renewcommand{\indexname}{Verzeichnis der Synoden}
+\input{synoden.index}
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

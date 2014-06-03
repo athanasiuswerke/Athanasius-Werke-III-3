@@ -1,0 +1,132 @@
+%%
+\DeclareNameFormat{default}{%
+  \usebibmacro{name:first-last}{#1}{#4}{#5}{#7}%
+  \usebibmacro{name:delim}}
+\DeclareNameFormat{sortname}{%
+  \ifnum\value{listcount}=1\relax
+    \usebibmacro{name:last-first}{#1}{#4}{#5}{#7}%
+    \usebibmacro{name:revsdelim}%
+  \else
+    \usebibmacro{name:first-last}{#1}{#4}{#5}{#7}%
+    \usebibmacro{name:delim}%
+  \fi}
+%% Komma als Trenner
+\renewcommand*{\newunitpunct}{\addcomma\space}
+%% Delim zwischen Namens
+\renewcommand*{\multinamedelim}{\addslash}
+%% Delim vor letztem Namen
+\renewcommand*{\finalnamedelim}{\addslash}
+\renewcommand*{\revsdnamedelim}{}
+%% Format des Titels
+\DeclareFieldFormat{citetitle}{#1\isdot}
+\DeclareFieldFormat{citetitle:article}{#1\midsentence}
+\DeclareFieldFormat{citetitle:book}{#1\isdot}
+\DeclareFieldFormat{citetitle:booklet}{#1\isdot}
+\DeclareFieldFormat{citetitle:collection}{#1\isdot}
+\DeclareFieldFormat{citetitle:inbook}{#1\midsentence}
+\DeclareFieldFormat{citetitle:incollection}{#1\midsentence}
+\DeclareFieldFormat{citetitle:inproceedings}{#1\midsentence}
+\DeclareFieldFormat{citetitle:manual}{#1\isdot}
+\DeclareFieldFormat{citetitle:misc}{#1\isdot}
+\DeclareFieldFormat{citetitle:online}{#1\isdot}
+\DeclareFieldFormat{citetitle:proceedings}{#1\isdot}
+\DeclareFieldFormat{citetitle:thesis}{#1\midsentence}
+\DeclareFieldFormat{citetitle:unpublished}{#1\midsentence}
+\DeclareFieldFormat{citetitle:customa}{#1\isdot}
+\DeclareFieldFormat{citetitle:customb}{#1\isdot}
+\DeclareFieldFormat{citetitle:customc}{#1\isdot}
+\DeclareFieldFormat{citetitle:customd}{#1\isdot}
+\DeclareFieldFormat{citetitle:custome}{#1\isdot}
+\DeclareFieldFormat{citetitle:customf}{#1\isdot}
+\DeclareFieldFormat{booktitle}{#1}
+\DeclareFieldFormat{journal}{#1}
+\DeclareFieldFormat{maintitle}{#1}
+\DeclareFieldFormat{title}{#1\isdot}
+\DeclareFieldFormat{title:article}{#1\midsentence}
+\DeclareFieldFormat{title:book}{#1\isdot}
+\DeclareFieldFormat{title:booklet}{#1\isdot}
+\DeclareFieldFormat{title:collection}{#1\isdot}
+\DeclareFieldFormat{title:inbook}{#1\midsentence}
+\DeclareFieldFormat{title:incollection}{#1\midsentence}
+\DeclareFieldFormat{title:inproceedings}{#1\midsentence}
+\DeclareFieldFormat{title:manual}{#1\isdot}
+\DeclareFieldFormat{title:misc}{#1\isdot}
+\DeclareFieldFormat{title:online}{#1\isdot}
+\DeclareFieldFormat{title:proceedings}{#1\isdot}
+\DeclareFieldFormat{title:thesis}{#1\midsentence}
+\DeclareFieldFormat{title:unpublished}{#1\midsentence}
+\DeclareFieldFormat{title:customa}{#1\isdot}
+\DeclareFieldFormat{title:customb}{#1\isdot}
+\DeclareFieldFormat{title:customc}{#1\isdot}
+\DeclareFieldFormat{title:customd}{#1\isdot}
+\DeclareFieldFormat{title:custome}{#1\isdot}
+\DeclareFieldFormat{title:customf}{#1\isdot}
+\DeclareFieldFormat{postnote}{%
+  \ifpages{#1}
+    {}
+    {}%
+  #1}
+%% Anpassung citecommand \cite
+\newbibmacro*{ecite}{%
+  \let\cbx@tempa\empty
+  \iffieldundef{shorthand}
+    {\ifnameundef{labelname}
+       {}
+       {\printnames{labelname}%
+        \def\cbx@tempa{\addcomma\space}}%
+     \usebibmacro{cite:title}}%
+    {\usebibmacro{cite:shorthand}}}
+\renewbibmacro*{cite}{%
+  \let\cbx@tempa\empty
+    {\ifnameundef{labelname}
+       {}
+       {\printnames{labelname}%
+        \def\cbx@tempa{\addcomma\space}}%
+     \usebibmacro{cite:title}}%
+}
+%%%%%%%%%%%%%%%%% Neues citecommand \conicite
+\newbibmacro*{ccite}{%
+  \let\cbx@tempa\empty
+\usebibmacro{cite:shorthand}\addcomma\space\usebibmacro{cite:title}}
+\DeclareCiteCommand{\conicite}
+  {\usebibmacro{citeinit}%
+   \usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{ccite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+%% Neues citecommand \editioncite
+\newbibmacro*{postnoteA}{%
+  \iffieldundef{postnote}
+    {}
+    {\printfield{postnote}}}
+\DeclareCiteCommand{\editioncite}
+  {\usebibmacro{citeinit}%
+   \usebibmacro{prenote}}
+  {\usebibmacro{postnoteA}\addspace%
+  \usebibmacro{citeindex}%
+   \usebibmacro{ecite}}
+  {\multicitedelim}
+  {}
+%%%%%%%%%% kein in: bei Zeitschriftenartikeln
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{author}%
+  \newunit\newblock
+  \usebibmacro{title+stitle}%
+  \newunit\newblock
+  %\usebibmacro{in:}%
+  \usebibmacro{journal+issue+year+pages}%
+  \newunit\newblock
+  \printfield{note}%
+  \newunit\newblock
+  \printfield{issn}%
+  \newunit\newblock
+  \printfield{doi}%
+  \newunit\newblock
+  \printfield{addendum}%
+  \newunit\newblock
+  \usebibmacro{url+date}%
+  \newunit\newblock
+  \usebibmacro{pageref}%
+  \usebibmacro{finentry}}
